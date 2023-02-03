@@ -109,18 +109,18 @@ body {
 input[type="radio"] {
 	display: none;
 }
-input[type="radio"]:checked + label {
+/* input[type="radio"]:checked + label {
 	background: #d6dbf5;
 	border: none;
-}
+} */
 /* .quiz-btn.selected-answer {
 } */
 .quiz-btn.correct-answer {
-	background: var(--success-color);
+	background: var(--success-color) !important;
 	border: none;
 }
 .quiz-btn.wrong-answer {
-	background: var(--danger-color);
+	background: var(--danger-color) !important;
 	border: none;
 }
 .footer {
